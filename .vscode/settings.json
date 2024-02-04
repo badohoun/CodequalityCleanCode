@@ -1,0 +1,21 @@
+{
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "python.formatting.blackArgs": [
+        "--line-length=119"
+    ],
+    "editor.formatOnSave": true,
+    "editor.rulers": [
+        {
+            "color": "lightblue",
+            "column": 79
+        },
+        {
+            "color": "lightgreen",
+            "column": 99
+        },
+        {
+            "color": "pink",
+            "column": 119
+        },
+    ]
+}
