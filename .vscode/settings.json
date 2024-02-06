@@ -1,9 +1,12 @@
 {
     "editor.defaultFormatter": "ms-python.black-formatter",
-    "python.formatting.blackArgs": [
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave":{
+        "source.organizeImports": true
+    },
+    "black-formatter.args": [
         "--line-length=119"
     ],
-    "editor.formatOnSave": true,
     "editor.rulers": [
         {
             "color": "lightblue",
@@ -12,10 +15,10 @@
         {
             "color": "lightgreen",
             "column": 99
-        },
-        {
-            "color": "pink",
-            "column": 119
-        },
-    ]
+        }
+        
+    ],
+    "pylint.args": ["--disable=missing-class-docstring", "too-many-instance-attributes"]
+    
+
 }
