@@ -5,7 +5,7 @@
         "source.organizeImports": true
     },
     "black-formatter.args": [
-        "--line-length=119"
+        "--config ${workspaceFolder}/.black.toml"
     ],
     "editor.rulers": [
         {

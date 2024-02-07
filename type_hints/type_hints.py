@@ -170,3 +170,8 @@ class Duck:
 duck = Duck()
 
 duck.quack()
+
+
+from pathlib import Path
+
+e = 1

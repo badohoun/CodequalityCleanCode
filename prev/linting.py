@@ -45,9 +45,6 @@ def ma_fonction(ma_variable):
 ma_fonction(ma_variable=1, ma_seconde_variable=2)
 
 
-from dataclasses import dataclass
-
-
 @dataclass
 class Livre:
     title: str
