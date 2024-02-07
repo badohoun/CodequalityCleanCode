@@ -3,7 +3,7 @@ name: Pre-commit Hooks
 on: [push]
 
 jobs:
-  build:
+  Pre-commitHooks:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
