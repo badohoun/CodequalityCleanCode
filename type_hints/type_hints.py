@@ -1,15 +1,14 @@
 from typing import (
     Dict,
     List,
-    Tuple,
-    Set,
-    Type,
-    Optional,
-    Union,
-    TypedDict,
     NamedTuple,
+    Optional,
+    Set,
+    Tuple,
+    Type,
+    TypedDict,
+    Union,
 )
-
 
 # bonjourexemple: int = 1
 # bonjourexemple = "bonjour"
@@ -174,4 +173,4 @@ duck.quack()
 
 from pathlib import Path
 
-e = 1
+#e = 1
