@@ -16,9 +16,9 @@
             "color": "lightgreen",
             "column": 99
         }
-        
+
     ],
     "pylint.args": ["--disable=missing-class-docstring", "too-many-instance-attributes"]
-    
+
 
 }

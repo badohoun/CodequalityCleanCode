@@ -7,6 +7,7 @@ ignore = ["E501"]
 # Avoid trying to fix flake8-bugbear  (`B`) violations
 unfixable = ["B"]
 
+line-length = 99 
 
 # Ignore `E402` (import violations) in all `__init__.py` files,
 [per-file-ignores]
@@ -18,4 +19,4 @@ unfixable = ["B"]
 multi_line_output = "VERTICAL_HANGING_INDENT"
 force_grid_wrap = 2
 line_length = 99
-profile = "black" 
+profile = "black"

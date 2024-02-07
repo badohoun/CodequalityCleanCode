@@ -1,10 +1,10 @@
 [flake8]
-extend-ignore = 
+extend-ignore =
     E501
 max-line-length = 99
 
 
-# radon 
-radon-max-cc = 10 
-exclude = 
-    venv 
+# radon
+radon-max-cc = 10
+exclude =
+    venv
